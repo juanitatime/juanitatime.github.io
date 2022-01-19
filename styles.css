@@ -1,76 +1,249 @@
+/*
+font-family: 'Nunito', sans-serif;
+blue: #355070
+purple: #6D597A
+rose: #B56576
+pink: #E56B6F
+nude: #EAAC8B
+
+*/
 * {
-    font-family: 'Work Sans', sans-serif;
-    color: #554640;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-body {
-    font-family: 'Work Sans', sans-serif;
-    background-image: url("triangle.jpg");
-    font-weight: normal;
-    font-style: normal;
-    background-repeat: no-repeat;
-    background-size: cover;
-}   
-h1 {
-    text-align-last: center;
-    font-size: 3em;
-    color: #ff6f00;
-    text-decoration: underline; 
+#navbar {
+    width: 100%;
+    background-color: #fff;
 }
 
-h2 {
-    font-size: 2em;
+.color{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: 0px;
+    left: 350px;
+    padding: 0px;
+    margin: 0px;
 }
 
-h3 {
-    font-size: 1.5em;
-}
-
-h4 {
-    font-size: 1.2em;
-}
-
-article {
-    text-align: justify; 
-}
-.headings {
-    text-align-last: center;
-}
-.headings h1 {
-    text-align-last: center;
+a {
+    display: inline;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    position: relative;
+    top: -30px;
+    left: 1100px;
     text-decoration: none;
-    font-size: 3em;
-    color: #554640;
+    color: #B56576;
 }
-
-.headings h2 {
-    font-size: 2em;
-    text-align-last: center;
-}
-table, td, th{
-    border: 1px solid #554640;
-}
-
-.reference p {
-    text-align-last: center;
-}
-a:link {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1em;
-    color: #808000;
-}
-a:visited {
-    color: #800080;
-}
-
-.contact a{
-    text-align-last: center;
-    
-}
-
-
-a:hover{
+a:hover {
+    color: #6D597A;
     text-decoration: underline;
 }
+.about {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    text-align: justify;
+    border-bottom: 10px solid #dcdcdc;
+}
+.about::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.25;
+    background-image: url('../lesson5/stripe1.png');
+    background-size: cover;
+    
+}
+.cloud {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 300px;
+}
+.about > h1 {
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    right: 20px;
+    padding-top: 20px;
+    font-size: 18vh;
+    font-family: 'Nunito', sans-serif;
+    display: inline-block;
+    color: #E56B6F;
+}
+.about > p {
+    position: absolute;
+    padding: 20px;
+    color: #355070;
+}
+.about > h2 {
+    position: absolute;
+    right: 70px;
+    bottom: 80px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #EAAC8B;
+    font-family: 'Nunito', sans-serif;
+}
+.services {
+    position: relative; 
+    height: 90vh; 
+    width: 100%;
+    display: flex; 
+    text-align: justify;
+    border-bottom: 10px solid #dcdcdc; 
+    
+}
+.services::before {
+    content: "";
+    position: absolute; 
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px; 
+    opacity: 0.25; 
+    background-image: url('../lesson5/stripe.png');
+    background-size: cover;
 
-
+}
+#services .services > .box1, .box2, .box3 {
+    color: #6D597A;
+    text-align: center;
+}
+.services > h2 {
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #EAAC8B;
+    font-family: 'Nunito', sans-serif;
+}
+.services p {
+    position: relative; 
+    padding: 20px;
+    font-size: 100px;
+}
+#design {
+    font-size: 200px;
+}
+.services .box1 {
+    position: relative;
+    padding: 20px;
+    margin: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.services .box1:hover {
+    transition: ease-in-out 0.3s;
+    box-shadow: inset 0 0 300px #dcdcdc;
+}
+.services .box2 {
+    position: relative;
+    padding: 20px;
+    margin: 60px;
+    text-align: center;
+}
+.services .box2:hover {
+    transition: ease-in-out 0.3s;
+    box-shadow: inset 0 0 300px #dcdcdc;
+}
+.services .box3 {
+    position: relative;
+    padding: 20px;
+    margin: 60px;
+    text-align: center;
+}
+.services .box3:hover {
+    transition: ease-in-out 0.3s;
+    box-shadow: inset 0 0 300px #dcdcdc;
+}
+.work {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    text-align: justify;
+    border-bottom: 10px solid #dcdcdc;
+}
+.work::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.25; 
+    background-image: url('../lesson5/stripe1.png');
+    background-size: cover;
+}
+.work p {
+    position: relative; 
+    padding: 50px;
+    padding-top: 70px;
+    color: #355070;
+    font-family: 'Nunito', sans-serif;
+}
+.work > h2 {
+    position: absolute;
+    right: 70px;
+    bottom: 90px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #EAAC8B;
+    font-family: 'Nunito', sans-serif;
+}
+.contact {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    text-align: justify;
+}
+.contact::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.25; 
+    background-image: url('../lesson5/stripe.png');
+    background-size: cover;
+}
+.contact > h2 {
+    position: absolute;
+    right: 35px;
+    bottom: 70px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #EAAC8B;
+    font-family: 'Nunito', sans-serif;
+}
+.contact > p {
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 20px;
+    margin: 20px;
+    color: #355070;
+    display: inline;
+    border-right: 5px dotted #dcdcdc;
+    font-family: 'Nunito', sans-serif;
+}
