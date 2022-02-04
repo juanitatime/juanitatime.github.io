@@ -59,7 +59,7 @@ a:hover {
     bottom: 0px;
     left: 0px;
     opacity: 0.25;
-    background-image: url('../lesson5/stripe1.png');
+    background-image: url('../stripe1.png');
     background-size: cover;
     
 }
@@ -113,7 +113,7 @@ a:hover {
     bottom: 0px;
     left: 0px; 
     opacity: 0.25; 
-    background-image: url('../lesson5/stripe.png');
+    background-image: url('../stripe.png');
     background-size: cover;
 
 }
@@ -186,7 +186,7 @@ a:hover {
     bottom: 0px;
     left: 0px;
     opacity: 0.25; 
-    background-image: url('../lesson5/stripe1.png');
+    background-image: url('../stripe1.png');
     background-size: cover;
 }
 .work p {
@@ -222,7 +222,7 @@ a:hover {
     bottom: 0px;
     left: 0px;
     opacity: 0.25; 
-    background-image: url('../lesson5/stripe.png');
+    background-image: url('../stripe.png');
     background-size: cover;
 }
 .contact > h2 {
